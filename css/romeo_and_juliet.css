@@ -1,0 +1,864 @@
+/* Header */
+header { 
+padding-left: 15px;
+padding-top: 5px;
+background-color:#FEFCF5;
+}
+
+/* Logo */
+.logo {
+width: 80px;
+height: 80px;
+}
+
+/* background image */
+.movingimg {
+max-width: 100%;
+object-fit: cover;
+padding-left: 32px;
+}
+
+/* images */
+img {
+width: 100%;
+height: auto;
+}
+
+/* buttons */
+.shopnowbtn2 .shopnowbtn3 .submitbtn .buynowbtn4 .buynowbtn3 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+border-style: solid;
+border-radius: 25px;
+background:#FFD040;
+width: 160px;
+height: 55px;
+border-width: 8px;
+border-color: #4AC1E0;
+color: black;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 22px;
+cursor: pointer;
+text-align: center;
+}
+
+
+/* DROP DOWN - hamburger menu and position */
+.hamburger {
+width: 45px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+}
+
+.hamburger1 {
+  width: 45px;
+  height: 5px;
+  background-color: black;
+  margin: 3px 0;
+  }
+
+.hburgerposition {
+float: right;
+padding-top: 10px;
+padding-right: 20px;
+}
+
+.dropbtn {
+background-color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+  
+.dropdown {
+float: right;
+display: inline-block;
+}
+  
+.dropdown-content {  
+display: none;
+position: absolute;
+background: rgba(105, 72, 142, 0.9);
+width: 100%;
+height: 100%;
+left: 0;
+text-align: center;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+padding-top: 200px;
+}
+  
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.ddown1 {
+color: #FFD040;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.ddown2 {
+color: #4AC1E0;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+  
+.ddown3 {
+color: #E64783;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(105, 72, 142);
+} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: rgba(105, 72, 142);
+}
+
+/* vetical text homepage */
+.verticaltext {
+writing-mode: vertical-rl;
+transform: rotate(180deg);
+font-size: 5vw;
+}
+
+
+/* SOCIAL MEDIA icons */
+.smedia {
+width: 40px;
+height: 40px;
+padding-right: 15px;
+}
+
+
+/* FOOTER*/
+footer {
+font-size:14px;
+background-color: #323E48;
+color: ghostwhite;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+padding-top: 20px;
+padding-bottom: 40px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+
+
+.div1 {
+padding-bottom: 40px;
+float: left;
+}
+
+.div2 {
+float: left;
+}
+
+.div3 {
+padding-bottom: 20px;
+float: right;
+
+}
+
+/* SIGNUP button */
+.signup {
+fill: black;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+a.signup1 {
+  -webkit-appearance: button;
+    -moz-appearance: button;
+  border-style: solid;
+  border-radius: 25px;
+  background: #4AC1E0;
+  width: 90px;
+  height: 30px;
+  border-width: 6px;
+  border-color: #FFD040;
+  color: white;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  padding-left: 20px;
+  padding-top: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  }
+
+
+/* NEWSLETTER text and position */    
+.newsletter {
+color: ghostwhite;
+float: right;
+font-size: 18px;
+padding-top: 20px;
+padding-right: 6px;
+margin-right: 8px;
+}
+ 
+/* part of form styling */
+.div8 {
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+/* credit/debit card style */
+.p1 {
+  color: #FEFCF5;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.img1 {
+width: 40px;
+height: 30px;
+float: right;
+padding-right: 20px;
+padding-top: 10px;
+}
+
+
+.div9 {
+background-color:#69488E;
+max-width: 68.5%;
+padding-bottom: 60px;
+padding-right: 20px;
+padding-top: 10px;
+position: static;
+display: block;
+}
+
+form {
+padding-bottom: 25px;
+display: block;
+}
+
+
+
+ /* LABEL*/  
+label {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+
+/* ticket purchase select*/ 
+select {
+width: 30px;
+height: 30px;
+}
+
+
+
+/* TICKET TEXT*/ 
+.tickettext1 {
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: #4AC1E0;
+padding-left: 40px;
+line-height: 1;
+font-weight: 900;
+}
+
+.tickettext2 {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: black;
+padding-left: 40px;
+line-height: 50%;
+font-weight: 700;
+}
+
+
+/* NEWSLETTERBOX*/ 
+.newsletterbox {
+width: 70%;
+border: 3px solid rgba(105, 72, 142);
+padding: 50px;
+margin: 20px;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-weight: 300;
+font-size: 18px;
+line-height: 30%; 
+}
+
+form input{
+font-size: 22px;
+}
+
+input[type='checkbox'] {
+width:30px;
+height:30px;
+}
+
+input[type=text] {
+width: 70.2%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 3px solid rgba(105, 72, 142);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+
+input {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+input[type=text1] {
+width: 70%;
+padding: 30px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 3px solid rgba(105, 72, 142);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+resize: none;
+}
+
+input[type=url] {
+width: 35%;
+padding: 28px 20px;
+margin: 8px 0;float: left;
+height: 24px;
+box-sizing: border-box;
+border: 3px solid rgba(105, 72, 142);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+resize: none;
+margin-right: 4px;
+}
+
+/* START OF ABOUT PAGE */
+
+
+/* HEADING ONE HAVE YOU EVER HEARD OF ROMEO AND JULIET */
+.text1 {
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: #E64783;
+line-height: 90%;
+font-weight: 900;
+padding-left: 0px;
+padding-top: 20px;
+margin: 10px;
+}
+
+/* HEADING HAVE YOU EVER BEEN IN LOVE AND ABOUT THE ARTISTS */
+.text2 {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: #69488E;
+line-height: 30%;
+font-weight: 900;
+margin: 10px;
+padding-top: 10px;
+}
+
+/* JULIET HEADLINE TEXT */
+.text3 {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color:  #4AC1E0;
+padding-top: 50px;
+line-height: 30%;
+font-weight: 900;
+margin: 10px;
+}
+ 
+
+/* BODY OF TEXT */
+.bodytext {
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: black;
+font-weight: 300;
+font-size: 18px;
+line-height: 1;
+padding: 20px;
+margin: 10px;
+}
+
+   /* contact us */
+.text3 {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: #4AC1E0;
+padding-top: 50px;
+line-height: 30%;
+font-weight: 900;
+}
+/* heart styling */
+.heart {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.heart::before, .heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 16px;
+  height: 24px;
+  border-radius: 16px 16px 0 0;
+  background: #E64783;
+  background-color: #E64783;
+  animation-name: heartsanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.heart:before, .heart:after{
+  left: 16px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartsanimation {
+  0%  {background-color: #E64783}
+  25%  {background-color: #69488E}
+  50% {background-color: #4AC1E0}
+  75% {background-color: #FFD040}
+}
+
+/* ITALIC RATINGS AND REVIEWS */
+blockquote {
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-style: italic;
+font-size: 20px; 
+line-height: 0.5;
+}
+
+
+/* WHITE BOX FOR TEXT */  
+.whitetextbox2 {
+object-fit: fill;
+width: 600px;
+background-color:white;
+padding-top: 20px;
+padding-bottom: 60px;
+padding-left: 50px;
+margin: 70px;
+margin-top: 100px;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 18px;
+line-height: 10px;
+}
+
+.whitetextbox3 {
+  object-fit: fill;
+  width: 60%;
+  background-color:white;
+  padding-top: 20px;
+  padding-bottom: 120px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin: 70px;
+  margin-top: 100px;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  }
+
+/* purchse complete text */
+.purchaseheading1 {
+color: #69488E;
+padding-bottom: 35px;
+line-height: 1;
+}
+
+.purchaseheading2 {
+  color: #E64783;
+  padding-bottom: 35px;
+  line-height: 1;
+}
+
+/* BACKGROUND IMAGE merchandise page */  
+
+.merchimg {
+background-image: url('../images/shh.jpg');
+width: 100%;
+height: 100%;
+object-fit: cover;
+background-size: cover;
+background-size: 100% 100%;
+}
+
+.shopnowbtn1 {
+border-style: solid;
+border-radius: 25px;
+background:#FFD040;
+width: 175px;
+height: 65px;
+border-width: 8px;
+border-color: #4AC1E0;
+color: black;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 24px;
+cursor: pointer;
+margin-left: 200px;
+text-align: center;
+}
+
+.shopnowbtn3 {
+border-style: solid;
+border-radius: 25px;
+background:#FFD040;
+width: 130px;
+height: 50px;
+border-width: 8px;
+border-color: #69488E;
+color: black;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 22px;
+cursor: pointer;
+margin-left: 100px;
+}
+
+.submitbtn {
+  border-style: solid;
+  border-radius: 25px;
+  background:#FFD040;
+  width: 130px;
+  height: 50px;
+  border-width: 8px;
+  border-color: #69488E;
+  color: black;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 100px;
+  }
+
+
+/* pre-order snack pack box */
+.div14 {
+object-fit: cover;
+position: relative;
+width: 750px;
+background-color: white;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+margin-top: 200px;
+margin-bottom: 100px;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 2vw;
+display: inline-block;
+text-align: left;
+}
+
+.div15 {
+padding-bottom: 80px;
+}
+
+/* box for product name/price */
+.text-block {
+  position: absolute;
+  line-height: 1;
+  bottom: 60px;
+  right: 20px;
+  background-color: #69488E;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+
+.column1 {
+float: left;
+max-width: 5%;
+text-align: center;
+padding-top: 150px;
+}  
+
+.column2 {
+float: left;
+width: 91%;
+padding-left: 40px;
+}
+
+/* shop images */
+.column4 {
+  -ms-flex: 24%; /* IE10 */
+  flex: 24%;
+  width: 15%;
+padding-right: 8px;
+padding-top: 8px;
+}
+    
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: block;
+}
+
+.container1 {
+position: relative;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.container3 {
+  position: relative;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  }
+
+  /* shop images */
+.shopimg {
+width: 100%;
+object-fit: cover;
+}
+
+/* buy tickets button */
+  .buynowbtn3 {
+    border-style: solid;
+    border-radius: 25px;
+    background: #FFD040;
+    width: 140px;
+    height: 50px;
+    border-width: 6px;
+    border-color: #4AC1E0;
+    color: black;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    }
+
+   /* tickets table */ 
+.table1 {
+  width: 100%;
+  border: 4px solid black;
+  border-bottom: 0;
+}
+
+/* buy now button commitment pages */
+  .buynowbtn4 {
+    border-style: solid;
+    border-radius: 25px;
+    background: #4AC1E0;
+    width: 140px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 6px;
+    border-color: #E64783;
+    color: black;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 400px;
+    text-decoration: none;
+  
+    }
+
+    .form2 {
+      padding-top: 20px;
+    }
+/* background image post-commitment pages and about page */
+.pcimg {
+background-image: url('../images/underlay.jpg');
+object-fit: fill;
+max-width: 100%;
+}
+
+.div10 {
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 30px;
+}
+
+/* shop button */
+.shopnowbtn2 {
+border-style: solid;
+border-radius: 25px;
+background: #E64783;
+width: 130px;
+height: 50px;
+border-width: 8px;
+border-color: #4AC1E0;
+color: black;
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+font-size: 20px;
+cursor: pointer;
+margin-left: 20px;
+}
+
+/* boxes on about page */
+.div11 {
+  object-fit: fill;
+  width: 400px;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-align: left;
+}
+
+.div12 {
+float: right;
+object-fit: fill;
+width: 450px;
+background-color: white;
+padding-left: 10px;
+padding-bottom: 20px;
+padding-right: 20px;
+margin-top: 120px;
+margin-right: 300px;
+}
+
+/* cast/director image settings*/
+.img3 {
+width: 100%;
+height: 100%;
+}
+
+/* cast/director description boxes*/
+.bodytext2 {
+font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+color: black;
+font-weight: 300;
+font-size: 18px;
+line-height: 0.6;
+padding-left: 9px;
+}
+
+.pddgtop {
+padding-top: 20px;
+}
+
+.margintop {
+margin-top: 80px;
+}
+
+.margintop2 {
+margin-top: 75px;
+padding-top: 40px;
+}
+
+.linkcolour {
+color: #E64783;
+}
+
+.row {  
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap; 
+flex-wrap: wrap;
+}
+      
+
+.side {
+-ms-flex: 15%;
+flex: 30%;
+background-color: white;
+}
+      
+      
+.main {   
+-ms-flex: 85%;
+flex: 70%;
+background-color: white;
+}
+
+
+/* mobile view (600px) */
+@media screen and (max-width: 600px) {
+  .column .div11 .div12 .whitetextbox2 {
+    float: none;
+    width: 100%;
+  }
+    .div12 {
+  margin-right: 80px;
+    }
+
+    .shopnowbtn3 .shopimg .buynowbtn4 .div3 {
+      float: none;
+    }
+
+    .buynowbtn4 {
+      margin-left: 200px;
+    }
+
+    .div9 {
+      max-width: 100%;
+      width: 390px;
+    }
+
+    input[type=text] {
+    width: 100%;
+    }
+    input[type=text2]{
+    width: 49%;
+    }
+
+    .buynowbtn3 {
+      margin-right: 10px;
+    }
+
+    .movingimg {
+      padding-left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .newsletter {
+      font-size: 14px;
+    }
+
+    .column1 {
+      max-width: 2%;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    .verticaltext {
+      font-size: 30px;
+    }
+
+    
+.shopimg {
+  max-width: 100%;
+  object-fit: fill;
+}
+
+.column4 {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+  
+}
+
+.merchimg {
+  background-size: 100% 88%;
+  background-repeat: no-repeat;
+}
+
+  
+}
